@@ -5,7 +5,7 @@ function Footer() {
   const currentDate = new Date();
   const year = currentDate.getFullYear();
   return (
-    <div className="relative left-0 right-0 bottom-0 h-[10vh] py-5 flex flex-col sm:flex-row items-center justify-between text-white bg-gray-800 sm:px-20">
+    <div className="fixed left-0 right-0 bottom-0 h-[10vh] py-5 flex flex-col sm:flex-row items-center justify-between text-white bg-gray-800 sm:px-20">
       <section className="text-lg">
         Copyright {year} | All Rights Reserved
       </section>
